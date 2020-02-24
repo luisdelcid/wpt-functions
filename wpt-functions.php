@@ -10,7 +10,7 @@
  * Plugin Name: WPT Functions
  * Plugin URI: https://github.com/luisdelcid/wpt-functions
  * Text Domain: wpt-functions
- * Version: 2020.2.22
+ * Version: 2020.2.23
  *
  */ // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -25,7 +25,7 @@
 			});
 		} else {
 			define('WPT_Functions', __FILE__);
-			define('WPT_Functions_Version', '2020.2.22');
+			define('WPT_Functions_Version', '2020.2.23');
             if(!class_exists('Puc_v4_Factory', false)){
                 require_once(plugin_dir_path(WPT_Functions) . 'includes/plugin-update-checker-4.9/plugin-update-checker.php');
             }

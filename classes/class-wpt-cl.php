@@ -59,7 +59,7 @@
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
     public static function image_size_names_choose_filter($sizes){
-        if(self::$image_sizes){
+        if(self::$image_sizes and self::$config){
             foreach(self::$image_sizes as $name => $args){
                 if(!isset($sizes[$name])){
                     $sizes[$name] = $args['name'];
